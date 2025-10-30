@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/DougCaval/playwright_webtesting#readme",
   "devDependencies": {
-    "@playwright/test": "^1.55.0",
+    "@playwright/test": "^1.56.1",
     "@types/node": "^24.3.1",
     "allure-playwright": "^3.4.1"
+  },
+  "dependencies": {
+    "playwright-bdd": "^8.4.1"
   }
 }
