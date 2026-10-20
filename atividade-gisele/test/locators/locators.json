@@ -1,0 +1,36 @@
+{
+  "login": {
+    "campoUsuario": "[data-test='username']",
+    "campoSenha": "[data-test='password']",
+    "botaoLogin": "[data-test='login-button']",
+    "mensagemErro": "[data-test='error']"
+  },
+  "produtos": {
+    "botaoBikeLight": "[data-test='add-to-cart-sauce-labs-bike-light']",
+    "botaoBoltTShirt": "[data-test='add-to-cart-sauce-labs-bolt-t-shirt']",
+    "listaProdutos": ".inventory_item",
+    "nomeProduto": ".inventory_item_name",
+    "precoProduto": ".inventory_item_price",
+    "imagemProduto": "img.inventory_item_img",
+    "ordenacaoProdutos": ".product_sort_container"
+  },
+     "carrinho": {
+  "iconeCarrinho": ".shopping_cart_link",
+  "itemCarrinho": ".cart_item",
+  "contadorCarrinho": ".shopping_cart_badge",
+  "botaoRemoverBikeLight": "[data-test='remove-sauce-labs-bike-light']",
+  "quantidadeProduto": ".cart_quantity",
+  "precoProduto": ".inventory_item_price"
+},
+"checkout": {
+  "botaoCheckout": "[data-test='checkout']",
+  "campoNome": "[data-test='firstName']",
+  "campoSobrenome": "[data-test='lastName']",
+  "campoCep": "[data-test='postalCode']",
+  "botaoContinuar": "[data-test='continue']",
+  "botaoFinalizar": "[data-test='finish']",
+  "botaoCancelar": "[data-test='cancel']",
+  "mensagemSucesso": "[data-test='complete-header']",
+  "mensagemErro": "[data-test='error']"
+}
+}
