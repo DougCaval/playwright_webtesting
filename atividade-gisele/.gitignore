@@ -1,0 +1,16 @@
+# Dependências do Node.js
+node_modules/
+
+# Resultados e relatórios do Allure
+allure-results/
+allure-report/
+
+# Arquivos de backup
+allure-results-backup.txt
+allure-results-erro.txt
+
+# Arquivos temporários
+*.log
+
+# Arquivos de configuração locais
+.env
